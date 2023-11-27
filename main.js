@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
             resourceCard.innerHTML = `
                 <img src="${resource.image}" alt="${resource.name}">
                 <p>${resource.name}</p>
-                <!-- Add more fields as needed -->
                 <button onclick="removeResource(${resource.id})">Remove</button>
             `;
             resourceList.appendChild(resourceCard);
