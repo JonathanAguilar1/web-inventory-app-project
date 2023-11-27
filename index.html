@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inventory Management</title>
+</head>
+<body>
+    <header>
+        <h1>Inventory Management</h1>
+    </header>
+    <main>
+        <div id="resource-list"></div>
+        <form id="resource-form">
+            <div class="form-grid">
+                <label for="resource-name">Resource Name:</label>
+                <input type="text" id="resource-name" required>
+
+                <label for="resource-image">Resource Image URL:</label>
+                <input type="text" id="resource-image" required>
+            </div>
+
+            <button type="submit">Add Resource</button>
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
